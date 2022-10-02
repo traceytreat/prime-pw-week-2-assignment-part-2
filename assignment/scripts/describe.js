@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called name. It is set to 'Dane'.
+// We check if name is equal to 'Mary'.
+// Although they are both strings, the values are not equal.
+// So, console.log displays 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret. It is not assigned a value. We also make a variable called code with the value 123.
+// We check if code is the same type and value as the number 123. It is, so secret is set to 'super' and code is set to 246.
+// We check if code is greater than 250. It is not.
+// console.log displays the value of secret, 246.
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make three variables, isStudent (set to true), age (set to 34), and zip (set to 55407).
+// We check if isStudent is true AND zip is greater than 80000. Only the first part is true, so we move on. 
+// Next, we check if isStudent is false OR age is less than 30. Neither of these are true, so we move on.
+// Next, we check if isStudent is true. It is, so console.log displays 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,11 +130,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//Fix- colorOne should be set to 'blue' instead of 'red'.
 let colorOne = 'red';
+//Fix- colorTwo should be set to 'red' instead of 'blue'.
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
+  //Fix- colorTwo should also be set to purple.
   colorOne = 'purple';
 }
 */
@@ -147,6 +150,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//Fix- Should use the and operator && instead of the or operator ||.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,9 +164,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//Fix- should be greater than >= instead of less than <=
 if(minAge <= age) {
+  //Fix- should display 'enter'
   console.log('no entry');
 } else {
+  //Fix- should display 'no entry'
   console.log('enter');
 }
 */
